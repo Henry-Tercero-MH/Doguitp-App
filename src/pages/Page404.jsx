@@ -1,11 +1,13 @@
-import image from "../assets/img/error-404.jpg";
+import image from "../assets/img/doguito404.svg";
 import "../assets/css/404.css";
-const page404 = () => {
+
+const Page404 = () => {
   return (
-    <main className="container flex flex--center flex--colum">
-      <img className="dog-image" src={image} alt="page404" />
+    <main className="container flex flex--center flex--column">
+      <img className="dog-image" src={image} alt="Doguito" />
       <p className="notfound-text">Esta página no existe</p>
     </main>
   );
 };
-export default page404;
+
+export default Page404;

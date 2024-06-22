@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import "../assets/css/componentes/Card.css";
-import { buscar } from "../api/api";
+import "../assets/css/componentes/card.css";
+import { buscar } from "../Api/Api";
 import { Link } from "react-router-dom";
 
 const ListPosts = ({ url }) => {
